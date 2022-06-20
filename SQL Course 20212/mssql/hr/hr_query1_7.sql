@@ -1,0 +1,4 @@
+USE hrdb;
+
+SELECT MAX(SALARY) as MAX_SAL, MIN(SALARY) as MIN_SAL
+FROM employees;
